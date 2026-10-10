@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "DMGE Core Props",
+  "description": "Public interactive props, animated lighting, and scripted NPCs for DMGE",
+  "author": "mcdoolz",
+  "categories": [
+    { "id": "lighting", "name": "Lighting & Torches" },
+    { "id": "furniture", "name": "Furniture & Containers" },
+    { "id": "obstacles", "name": "Columns & Cover" },
+    { "id": "npcs", "name": "Scripted NPCs & Monsters" }
+  ],
+  "props": [
+    {
+      "id": "torch_wall",
+      "name": "Wall Torch",
+      "category": "lighting",
+      "file": "lighting/torch_wall.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": false,
+      "light": {
+        "color": "#ff8822",
+        "radius": 240,
+        "intensity": 0.85,
+        "flicker": true
+      },
+      "tags": ["light", "torch", "fire", "wall"]
+    },
+    {
+      "id": "brazier",
+      "name": "Standing Brazier",
+      "category": "lighting",
+      "file": "lighting/brazier.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": false,
+      "light": {
+        "color": "#ff9933",
+        "radius": 320,
+        "intensity": 1.0,
+        "flicker": true
+      },
+      "tags": ["light", "fire", "stone", "floor", "brazier"]
+    },
+    {
+      "id": "wooden_chest",
+      "name": "Iron-Banded Chest",
+      "category": "furniture",
+      "file": "furniture/wooden_chest.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": true,
+      "tags": ["chest", "loot", "wood", "container", "treasure"]
+    },
+    {
+      "id": "oak_table",
+      "name": "Tavern Oak Table",
+      "category": "furniture",
+      "file": "furniture/oak_table.svg",
+      "width": 96,
+      "height": 64,
+      "castsShadow": true,
+      "tags": ["table", "wood", "furniture", "tavern"]
+    },
+    {
+      "id": "stone_pillar",
+      "name": "Carved Stone Column",
+      "category": "obstacles",
+      "file": "obstacles/stone_pillar.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": true,
+      "blockingSegments": [
+        [0.2, 0.4, 0.8, 0.4],
+        [0.8, 0.4, 0.8, 0.8],
+        [0.8, 0.8, 0.2, 0.8],
+        [0.2, 0.8, 0.2, 0.4]
+      ],
+      "tags": ["pillar", "stone", "cover", "obstacle", "column"]
+    },
+    {
+      "id": "skeleton_guard",
+      "name": "Skeleton Sentinel",
+      "category": "npcs",
+      "file": "npcs/skeleton_guard.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": true,
+      "npc": {
+        "movementType": "patrol",
+        "facingMode": "topdown",
+        "speed": 1.5,
+        "script": "LABEL patrol_loop\nMOVE_TO 400 300 2\nWAIT 1.5\nMOVE_TO 600 300 2\nWAIT 1.5\nGOTO patrol_loop"
+      },
+      "tags": ["undead", "skeleton", "monster", "patrol", "guard", "hostile"]
+    }
+  ]
+}

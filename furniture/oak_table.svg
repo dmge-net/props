@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="96" height="64">
+  <!-- Drop shadow -->
+  <ellipse cx="48" cy="46" rx="42" ry="14" fill="#0b0c0f" opacity="0.6"/>
+  <!-- Table legs -->
+  <rect x="14" y="24" width="8" height="24" fill="#422915" stroke="#1d120a" stroke-width="1.5" rx="1"/>
+  <rect x="74" y="24" width="8" height="24" fill="#422915" stroke="#1d120a" stroke-width="1.5" rx="1"/>
+  <!-- Table top (top-down / isometric) -->
+  <rect x="8" y="12" width="80" height="28" rx="4" fill="#6d4524" stroke="#2a1a0d" stroke-width="2"/>
+  <!-- Wood plank grooves -->
+  <line x1="8" y1="21" x2="88" y2="21" stroke="#3d2614" stroke-width="1.5"/>
+  <line x1="8" y1="30" x2="88" y2="30" stroke="#3d2614" stroke-width="1.5"/>
+</svg>

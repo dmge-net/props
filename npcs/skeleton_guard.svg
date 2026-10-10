@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dynamic actor drop shadow -->
+  <ellipse cx="32" cy="52" rx="16" ry="6" fill="#090a0d" opacity="0.6"/>
+  <!-- Shield on left arm -->
+  <ellipse cx="18" cy="32" rx="8" ry="12" fill="#4a5059" stroke="#1c2024" stroke-width="1.5"/>
+  <ellipse cx="18" cy="32" rx="4" ry="6" fill="#6d7682"/>
+  <circle cx="18" cy="32" r="2" fill="#c49a3b"/>
+  <!-- Rusty sword on right arm -->
+  <line x1="44" y1="36" x2="54" y2="16" stroke="#874728" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="42" y1="34" x2="48" y2="38" stroke="#36393e" stroke-width="2"/>
+  <!-- Ribcage / Torso -->
+  <ellipse cx="32" cy="34" rx="8" ry="10" fill="#ded7cd" stroke="#4a4742" stroke-width="1.5"/>
+  <line x1="26" y1="30" x2="38" y2="30" stroke="#4a4742" stroke-width="1"/>
+  <line x1="26" y1="34" x2="38" y2="34" stroke="#4a4742" stroke-width="1"/>
+  <line x1="28" y1="38" x2="36" y2="38" stroke="#4a4742" stroke-width="1"/>
+  <!-- Skull -->
+  <ellipse cx="32" cy="18" rx="8" ry="9" fill="#ede8e1" stroke="#383632" stroke-width="1.5"/>
+  <!-- Eye sockets (glowing red) -->
+  <circle cx="29" cy="18" r="2" fill="#140808"/>
+  <circle cx="29" cy="18" r="1" fill="#ff2222"/>
+  <circle cx="35" cy="18" r="2" fill="#140808"/>
+  <circle cx="35" cy="18" r="1" fill="#ff2222"/>
+  <!-- Skull teeth -->
+  <line x1="30" y1="24" x2="34" y2="24" stroke="#383632" stroke-width="1"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="torchGlow" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffdd55" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ff7700" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff3300" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sconce backplate -->
+  <rect x="28" y="28" width="8" height="24" fill="#2d3138" stroke="#121316" stroke-width="1.5" rx="1"/>
+  <!-- Iron bracket -->
+  <path d="M 28 44 Q 22 40 24 30 L 32 30" fill="none" stroke="#444a54" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Wooden torch shaft -->
+  <rect x="29" y="18" width="6" height="22" fill="#5c381e" stroke="#2b1a0d" stroke-width="1"/>
+  <!-- Flame glow halo -->
+  <circle cx="32" cy="18" r="18" fill="url(#torchGlow)"/>
+  <!-- Flame body -->
+  <path d="M 32 6 C 26 12 26 22 32 24 C 38 22 38 12 32 6 Z" fill="#ffaa00"/>
+  <path d="M 32 10 C 28 14 28 20 32 22 C 36 20 36 14 32 10 Z" fill="#fff3a8"/>
+</svg>
