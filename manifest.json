@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "name": "DMGE Core Props",
   "description": "Public interactive props, animated lighting, and scripted NPCs for DMGE",
-  "author": "mcdoolz",
+  "author": "dmge-net",
   "categories": [
     { "id": "lighting", "name": "Lighting & Torches" },
     { "id": "furniture", "name": "Furniture & Containers" },
