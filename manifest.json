@@ -93,6 +93,48 @@
         "script": "LABEL patrol_loop\nMOVE_TO 400 300 2\nWAIT 1.5\nMOVE_TO 600 300 2\nWAIT 1.5\nGOTO patrol_loop"
       },
       "tags": ["undead", "skeleton", "monster", "patrol", "guard", "hostile"]
+    },
+    {
+      "id": "chest_open",
+      "name": "Open Treasure Chest",
+      "category": "furniture",
+      "file": "furniture/chest_open.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": true,
+      "tags": ["chest", "loot", "gold", "open", "treasure"]
+    },
+    {
+      "id": "candle_candelabra",
+      "name": "Brass Candelabra",
+      "category": "lighting",
+      "file": "lighting/candle_candelabra.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": false,
+      "light": {
+        "color": "#f59e0b",
+        "radius": 260,
+        "intensity": 0.8,
+        "flicker": true
+      },
+      "tags": ["light", "candle", "brass", "tavern", "crypt"]
+    },
+    {
+      "id": "goblin_archer",
+      "name": "Goblin Archer",
+      "category": "npcs",
+      "file": "npcs/goblin_archer.svg",
+      "width": 64,
+      "height": 64,
+      "castsShadow": true,
+      "npc": {
+        "movementType": "wander",
+        "facingMode": "topdown",
+        "speed": 2.0,
+        "script": "LABEL wander\nWANDER 150\nWAIT 2.0\nGOTO wander"
+      },
+      "tags": ["goblin", "archer", "monster", "hostile", "ambush"]
     }
   ]
 }

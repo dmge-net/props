@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Actor drop shadow -->
+  <ellipse cx="32" cy="52" rx="14" ry="5" fill="#090a0d" opacity="0.6"/>
+  <!-- Pointed goblin ears -->
+  <polygon points="12,24 24,18 20,28" fill="#4d7c0f" stroke="#365314" stroke-width="1.2"/>
+  <polygon points="52,24 40,18 44,28" fill="#4d7c0f" stroke="#365314" stroke-width="1.2"/>
+  <!-- Goblin head -->
+  <ellipse cx="32" cy="22" rx="11" ry="10" fill="#65a30d" stroke="#365314" stroke-width="1.5"/>
+  <!-- Yellow glowing eyes -->
+  <ellipse cx="27" cy="21" rx="2.5" ry="3" fill="#facc15"/>
+  <circle cx="27" cy="21" r="1" fill="#713f12"/>
+  <ellipse cx="37" cy="21" rx="2.5" ry="3" fill="#facc15"/>
+  <circle cx="37" cy="21" r="1" fill="#713f12"/>
+  <!-- Sharp toothy snarl -->
+  <path d="M 28 27 L 30 25 L 32 27 L 34 25 L 36 27" stroke="#fef08a" stroke-width="1.2" fill="none"/>
+  <!-- Leather tunic torso -->
+  <ellipse cx="32" cy="38" rx="9" ry="10" fill="#78350f" stroke="#451a03" stroke-width="1.5"/>
+  <!-- Shortbow on left -->
+  <path d="M 16 26 Q 10 38 18 48" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="16" y1="26" x2="18" y2="48" stroke="#fde68a" stroke-width="0.8"/>
+  <!-- Arrow in right hand -->
+  <line x1="22" y1="36" x2="38" y2="36" stroke="#451a03" stroke-width="1.5"/>
+  <polygon points="18,36 23,34 23,38" fill="#94a3b8"/>
+</svg>

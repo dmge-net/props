@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="candleGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fff2aa" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Flame halo -->
+  <circle cx="32" cy="20" r="20" fill="url(#candleGlow)"/>
+  <!-- Brass base shadow -->
+  <ellipse cx="32" cy="54" rx="14" ry="5" fill="#0c0d10" opacity="0.6"/>
+  <!-- Brass stand -->
+  <ellipse cx="32" cy="52" rx="12" ry="4" fill="#b45309" stroke="#78350f" stroke-width="1.5"/>
+  <rect x="30" y="28" width="4" height="24" fill="#d97706" stroke="#78350f" stroke-width="1"/>
+  <!-- 3 Candelabra arms -->
+  <path d="M 20 32 Q 20 40 32 40 Q 44 40 44 32" fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- White candle tapers -->
+  <rect x="18" y="22" width="4" height="10" fill="#fef08a" stroke="#ca8a04" stroke-width="0.75" rx="1"/>
+  <rect x="30" y="16" width="4" height="12" fill="#fef08a" stroke="#ca8a04" stroke-width="0.75" rx="1"/>
+  <rect x="42" y="22" width="4" height="10" fill="#fef08a" stroke="#ca8a04" stroke-width="0.75" rx="1"/>
+  <!-- Little flames -->
+  <path d="M 20 16 C 18 18 18 21 20 22 C 22 21 22 18 20 16 Z" fill="#f59e0b"/>
+  <path d="M 32 10 C 30 12 30 15 32 16 C 34 15 34 12 32 10 Z" fill="#f59e0b"/>
+  <path d="M 44 16 C 42 18 42 21 44 22 C 46 21 46 18 44 16 Z" fill="#f59e0b"/>
+</svg>
